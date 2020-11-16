@@ -1,4 +1,19 @@
-import {sum, subtract, multiply, divide} from "./calculator.js"
+function sum(a, b) {
+    return a + b
+}
+
+function subtract(a, b) {
+    return a - b
+}
+
+function multiply(a, b) {
+    return a * b
+}
+
+function divide(a, b) {
+    return a / b
+}
+
 
 let output = document.querySelector("#output")
 
